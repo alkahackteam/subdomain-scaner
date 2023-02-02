@@ -24,7 +24,7 @@ ____________________________________________________
  coder: X_User
 """)
 
-target_domain = input("Hedef site: ")
+target_domain = input("Hedef site örnk(google.com): ")
 wordlist = "wordlist.txt"
 
 check_subdomains(target_domain, wordlist)
